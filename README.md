@@ -2,7 +2,7 @@
 
 Eugene Khvedchenya, February 2020
 
-This repository contains source code for my solution to [xView2 challenge](https://xview2.com). My solution was scored second (0.803) on public LB and third (0.807) on private hold-out dataset.
+This repository contains source code for my solution to [xView2 challenge](https://xview2.com). My solution was scored second (0.803) on public LB and third (0.805) on private hold-out dataset.
 
 # Approach in a nutshell
 
@@ -18,3 +18,8 @@ This repository contains source code for my solution to [xView2 challenge](https
 
 - Install dependencies from `requirements.txt`
 - Follow `train.sh` 
+
+
+# License
+
+MIT
