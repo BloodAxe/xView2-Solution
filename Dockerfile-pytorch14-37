@@ -1,0 +1,26 @@
+FROM python:3.7
+
+RUN apt-get update && apt-get install -y libgeos-dev
+
+RUN mkdir /xView2
+WORKDIR /xView2
+
+ADD requirements_docker_pytorch14.txt /xView2
+RUN pip3 install -r requirements_docker_pytorch14.txt
+
+ADD . /xView2
+
+RUN mkdir -p /input
+RUN mkdir -p /output
+
+# https://github.com/pytorch/pytorch/issues/27971
+ENV LRU_CACHE_CAPACITY 1
+
+# set environment variables
+# Prevents Python from writing pyc files to disc
+ENV PYTHONDONTWRITEBYTECODE 1
+
+# Prevents Python from buffering stdout and stderr
+ENV PYTHONUNBUFFERED 1
+
+ENTRYPOINT ["python3", "docker_submission_37.py"]

@@ -1,0 +1,11 @@
+runs/
+pretrain/
+models/
+models_old/
+tests/
+predictions/
+predictions_docker/
+test_images/
+tests/
+old/
+*.cmd
