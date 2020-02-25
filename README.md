@@ -19,6 +19,9 @@ This repository contains source code for my solution to [xView2 challenge](https
 - Install dependencies from `requirements.txt`
 - Follow `train.sh` 
 
+# Inference
+
+For inference using pre-trained models please download full archive from Releases tab and run `predict_37_weighted.py` script.
 
 # License
 
