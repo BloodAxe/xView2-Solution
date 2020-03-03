@@ -105,6 +105,5 @@ venv.bak/
 .idea/
 runs/
 /xview2.zip
-models/
 models_old/
 pretrain/
