@@ -4,6 +4,8 @@ Eugene Khvedchenya, February 2020
 
 This repository contains source code for my solution to [xView2 challenge](https://xview2.com). My solution was scored second (0.803) on public LB and third (0.805) on private hold-out dataset.
 
+Please check out our paper that describes the approach in more details: https://arxiv.org/abs/2111.00508 
+
 # Approach in a nutshell
 
 - Ensemble of semantic segmentation models. 
